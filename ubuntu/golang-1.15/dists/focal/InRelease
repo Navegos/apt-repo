@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: golang-1.15
+Label: golang-1.15
+Codename: focal
+Date: Sun, 20 Dec 2020 12:55:46 UTC
+Architectures: amd64
+Components: main
+Description: golang-1.15 Repository
+MD5Sum:
+ eeb5eb98e805a0bb670a1f1f239fa43f 5739 main/binary-amd64/Packages
+ 7130a1d49d98d9b69966ff63441784a0 1645 main/binary-amd64/Packages.gz
+ a0a589b3e821c123289e5a4afaae32da 111 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+ 5f92cce41cbf4c1bca854612f59688e6 2082 main/source/Sources
+ eb8f241347ac379a6f11621bbdf848ad 969 main/source/Sources.gz
+ e0e1276ae6d95c9f4cd1387c5969434b 112 main/source/Release
+SHA1:
+ abed0ca5ddcf11ade153f034a3c64ac942d7f15f 5739 main/binary-amd64/Packages
+ 9bb36c3f21c83774a314bea79fcb7bb9508ac5a6 1645 main/binary-amd64/Packages.gz
+ 6327e20101c61be263f91ce6358c301ad52a3a1b 111 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+ 57076a6f1a85a1c3b5e418a55dce99662b1c18b0 2082 main/source/Sources
+ a74e2615be1f3c0830c5d263de8a358958c0d0f8 969 main/source/Sources.gz
+ 630308c7e6b8c3c0b04afa67bd2271bd694b8a32 112 main/source/Release
+SHA256:
+ 2b72ced0f6330db247f232918fe2df9a3f9efcd15c5318ff329b97f2b0c2bdb1 5739 main/binary-amd64/Packages
+ 55cd4860f42aedeca7c319e571b38062c726ea7db241ddbbbb9791552e113dd2 1645 main/binary-amd64/Packages.gz
+ cb7c49269a6eb1c1c553bc213ab2461f1dd61825aaec3eda2e014f43bb0429ed 111 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
+ a75ecc08e4ecf2f9225fed72e2a926ab171813d6151e76661be46e66d0a3233f 2082 main/source/Sources
+ f910a8169fab9d233b0448cb8f561db7ad8eb67ef8198ce2d266d19343db6834 969 main/source/Sources.gz
+ 2c1c12dad38d6271597a7ee268be818bea47dc9e60f5a3d9f2e8be9a7cd668d2 112 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEiEz9eRHLyjBVpiyBwn0khLppjqUFAl/fSdMACgkQwn0khLpp
+jqVwWA//UiwmaXjQhZJrWgHfCFnI/D1UbqwPOx3Mne/NSljyqZ+ZQNrlPeAV1xmb
+YG6EPoLXztPWkMG9+RrphWx35kLdFGIezCQ9DLcsIGKJOGrx9KT2hGX25PerVdEa
+Ukfw9KBLGdtYBvuPXtkyquXoienqY7BHscvULB0w4HExZ2QRjuvnJ47HeKOtJ5/j
+l5sPgyLcAUz/L9M9fReRbVvSnUfJX3NpkHZOSZftnk5hlGI66m2GHO0AeP3OIbKs
+5bIbAvf0TfHJmMocWEYicu9z0UWLGpAsDgnj+53KLpg8rZOeNqpR06tv0K+n6WET
+WT+oOCCT5a22IrzJvUdRoELCxDebq2Wq1jIosKaXmvOLo3NdKGY+Vfo5ZSlIDDFg
+gJClJgqoYqexWkQcY70Cz7TmyBCPGDDXmDX0CU2xCAjLRl+ekDkSxk9qCvg1JRVX
+8hkpAJhNdMQY9YNwACWWtrWY2LkqF3hxSwV23ACZb1ua2dMIoKa1KujGg6v+w8ts
+EmmxQHIVRcJugqM1WPNjAujH4kPG44dEI6RJonMa0fKfqjw2Ud5EecS8XGoffbsm
+5cCZ8oLwIkeeFTD5kLSECZ+O0X0y7sTm82E3Snq/g/QwQG+wyFrK8TxHtGGCV8sK
+A8Q9gjpiepRzT2yZgUJtl5Sm3F5SdvAyQqqYRKmiW9FkRY0itx4=
+=ZkUq
+-----END PGP SIGNATURE-----

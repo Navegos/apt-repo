@@ -1,0 +1,123 @@
+Package: golang-1.15
+Version: 1.15.6-1ubuntu2
+Architecture: all
+Maintainer: Navegos QA <navegos@outlook.com>
+Installed-Size: 56
+Depends: golang-1.15-doc (>= 1.15.6-1ubuntu2), golang-1.15-go (>= 1.15.6-1ubuntu2), golang-1.15-src (>= 1.15.6-1ubuntu2)
+Homepage: https://golang.org
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-1.15/golang-1.15_1.15.6-1ubuntu2_all.deb
+Size: 11240
+SHA256: 59d9e0df64dbfc36a26347f8b03cbb1fd9010527c4e4c169598477392ea31485
+SHA1: 66253b477bbb48614893f3614b80281d7916c6e1
+MD5sum: ac376ac1405d4f05bf6de47e1140e7d0
+Description: Go programming language compiler - metapackage
+ The Go programming language is an open source project to make
+ programmers more productive. Go is expressive, concise, clean, and
+ efficient. Its concurrency mechanisms make it easy to write programs
+ that get the most out of multicore and networked machines, while its
+ novel type system enables flexible and modular program construction.
+ Go compiles quickly to machine code yet has the convenience of
+ garbage collection and the power of run-time reflection. It's a
+ fast, statically typed, compiled language that feels like a
+ dynamically typed, interpreted language.
+ .
+ This package is a metapackage that, when installed, guarantees
+ that (most of) a full Go development environment is installed.
+Orginal-Maintainer: Go Compiler Team <team+go-compiler@tracker.debian.org>
+
+Package: golang-1.15-doc
+Source: golang-1.15
+Version: 1.15.6-1ubuntu2
+Architecture: all
+Maintainer: Navegos QA <navegos@outlook.com>
+Installed-Size: 4059
+Depends: golang-1.15-go
+Homepage: https://golang.org
+Priority: optional
+Section: doc
+Filename: pool/main/g/golang-1.15/golang-1.15-doc_1.15.6-1ubuntu2_all.deb
+Size: 2437204
+SHA256: 42931d573be9f97a5fe6150d3c30d9fdc2ba36d25ccf218ce78368318425c5bb
+SHA1: d64d40e11bd2aca9a93729d5524119991068b7ed
+MD5sum: 22532b58124e51495bb785b141d106a4
+Description: Go programming language - documentation
+ The Go programming language is an open source project to make
+ programmers more productive. Go is expressive, concise, clean, and
+ efficient. Its concurrency mechanisms make it easy to write programs
+ that get the most out of multicore and networked machines, while its
+ novel type system enables flexible and modular program construction.
+ Go compiles quickly to machine code yet has the convenience of
+ garbage collection and the power of run-time reflection. It's a fast,
+ statically typed, compiled language that feels like a dynamically
+ typed, interpreted language.
+ .
+ This package provides the documentation for the Go programming
+ language. You can view the formatted documentation by running
+ "godoc --http=:6060", and then visiting
+ http://localhost:6060/doc/install.html.
+Orginal-Maintainer: Go Compiler Team <team+go-compiler@tracker.debian.org>
+
+Package: golang-1.15-go
+Source: golang-1.15
+Version: 1.15.6-1ubuntu2
+Architecture: amd64
+Maintainer: Navegos QA <navegos@outlook.com>
+Installed-Size: 255863
+Depends: golang-1.15-src (>= 1.15.6-1ubuntu2), libc6 (>= 2.4)
+Recommends: g++, gcc, golang-1.15-race-detector-runtime, libc6-dev, pkg-config
+Suggests: bzr | brz, ca-certificates, git, mercurial, subversion
+Homepage: https://golang.org
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-1.15/golang-1.15-go_1.15.6-1ubuntu2_amd64.deb
+Size: 47329076
+SHA256: d6710b9f254554f9fe012c972720e850f0a2317ca82f974026c99a5d43fcc1d2
+SHA1: f9b8be81a7a2dce9c06a5440d6a9addb1434b00c
+MD5sum: e4b276d8e9cfc7491bfa0fb094111bd3
+Description: Go programming language compiler, linker, compiled stdlib
+ The Go programming language is an open source project to make programmers more
+ productive. Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of multicore
+ and networked machines, while its novel type system enables flexible and
+ modular program construction. Go compiles quickly to machine code yet has the
+ convenience of garbage collection and the power of run-time reflection. It's a
+ fast, statically typed, compiled language that feels like a dynamically typed,
+ interpreted language.
+ .
+ This package provides an assembler, compiler, linker, and compiled libraries
+ for the Go programming language.
+ .
+ Go supports cross-compilation, but as of Go 1.5, it is no longer necessary to
+ pre-compile the standard library inside GOROOT for cross-compilation to work.
+Orginal-Maintainer: Go Compiler Team <team+go-compiler@tracker.debian.org>
+
+Package: golang-1.15-src
+Source: golang-1.15
+Version: 1.15.6-1ubuntu2
+Architecture: amd64
+Maintainer: Navegos QA <navegos@outlook.com>
+Installed-Size: 93992
+Homepage: https://golang.org
+Priority: optional
+Section: devel
+Filename: pool/main/g/golang-1.15/golang-1.15-src_1.15.6-1ubuntu2_amd64.deb
+Size: 13766904
+SHA256: 6d3dfadbf1597658e4d074d8b6ffd6c09d65539bc34f3f17a30fd874c4c04229
+SHA1: e179df828480489900b789b8f8cca77ce9ca2b26
+MD5sum: 61af26e2bd1b02ebedb0baaa52083d79
+Description: Go programming language - source files
+ The Go programming language is an open source project to make programmers more
+ productive. Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of multicore
+ and networked machines, while its novel type system enables flexible and
+ modular program construction. Go compiles quickly to machine code yet has the
+ convenience of garbage collection and the power of run-time reflection. It's a
+ fast, statically typed, compiled language that feels like a dynamically typed,
+ interpreted language.
+ .
+ This package provides the Go programming language source files needed for
+ cross-compilation.
+Orginal-Maintainer: Go Compiler Team <team+go-compiler@tracker.debian.org>
+

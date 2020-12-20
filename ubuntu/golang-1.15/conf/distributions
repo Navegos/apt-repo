@@ -1,0 +1,9 @@
+Origin: golang-1.15
+Label: golang-1.15
+Codename: focal
+Architectures: amd64 source
+Components: main
+UDebComponents: main
+Tracking: minimal
+Description: golang-1.15 Repository
+SignWith: C27D2484BA698EA5

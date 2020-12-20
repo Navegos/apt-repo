@@ -1,0 +1,5 @@
+Component: main
+Origin: golang-1.15
+Label: golang-1.15
+Architecture: source
+Description: golang-1.15 Repository
