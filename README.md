@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+## Welcome to Navegos QA ubuntu package manager repository!
 
-You can use the [editor on GitHub](https://github.com/Navegos/apt-repo/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<br />
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*All the packages are distributed as is, and only for x86 64bits ubuntu focal OS system.* *(Probably more it will come at later time)*
 
-### Markdown
+<br />
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Instructions:**
+<br />
 
-```markdown
-Syntax highlighted code block
+*add the sign key to your trusted keys*
+<br />
 
-# Header 1
-## Header 2
-### Header 3
+***`sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key 10649EA8D069C51D`***
+<br />
 
-- Bulleted
-- List
+*or*
+<br />
 
-1. Numbered
-2. List
+***`curl -fsSL https://apt.navegos.net/pub.key | sudo apt-key add -`***
 
-**Bold** and _Italic_ and `Code` text
+<br />
 
-[Link](url) and ![Image](src)
-```
+**Available packages versions:**
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* Golang
+  * golang-1.15
+* UASM
+  * uasm-2.51
 
-### Jekyll Themes
+<br />
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Navegos/apt-repo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**Source Links:**
+<br />
 
-### Support or Contact
+*add package as sudo*
+<br />
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+***`sudo add-apt-repository "deb [arch=amd64] https://apt.navegos.net/ubuntu/(package version)/ $(lsb_release -cs) main"`***
+
+*or*
+<br />
+
+***`echo "deb [arch=amd64] https://apt.navegos.net/ubuntu/(package version)/ focal main" | sudo tee /etc/apt/sources.list.d/(package version).list`***
+<br />
+
+*example*
+<br />
+
+***`sudo add-apt-repository "deb [arch=amd64] https://apt.navegos.net/ubuntu/golang-1.15/ $(lsb_release -cs) main"`***
+<br />
+
+*or*
+<br />
+
+***`echo "deb [arch=amd64] https://apt.navegos.net/ubuntu/golang-1.15/ focal main" | sudo tee /etc/apt/sources.list.d/golang-1.15.list`***
+<br />
