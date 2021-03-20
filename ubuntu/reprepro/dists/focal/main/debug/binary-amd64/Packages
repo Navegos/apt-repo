@@ -1,0 +1,19 @@
+Package: reprepro-dbgsym
+Package-Type: ddeb
+Source: reprepro
+Version: 5.3.0-1.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Navegos QA <navegos@outlook.com>
+Installed-Size: 1308
+Depends: reprepro (= 5.3.0-1.2)
+Priority: extra
+Section: debug
+Filename: pool/main/r/reprepro/reprepro-dbgsym_5.3.0-1.2_amd64.ddeb
+Size: 1230940
+SHA256: 1c09d3f3890afdeae00df4cfa49e4b367a33e785b5174f846970c07c0d775f41
+SHA1: fa3702aaac814bc940913d7c27eaa432e4a01766
+MD5sum: b78877e95e201b3e1677d4a248d7ed94
+Description: debug symbols for reprepro
+Build-Ids: 042ad6c9b72dbe311d353fd94a80427c42803f6d 2c3f3fe6284945e1201f577cf07eb57762e399de d48eecd8e19d29d168b9dc201402096554370d2f
+
