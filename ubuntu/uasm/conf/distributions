@@ -1,0 +1,10 @@
+Origin: uasm
+Label: uasm
+Codename: focal
+Architectures: amd64 source
+Components: main
+UDebComponents: main
+DDebComponents: main
+Tracking: minimal
+Description: uasm Repository
+SignWith: C27D2484BA698EA5
