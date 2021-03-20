@@ -17,28 +17,28 @@ Package-List:
  uasm-dev deb libdevel optional arch=any
  uasmd deb debug optional arch=any
 Checksums-Sha1:
- 91f4cba991f04fe0a7829a4a9a210bd5e820e28c 2710291 uasm_2.51.2.orig.tar.gz
- b229572591dc0196402476a53a5d517179294574 2524 uasm_2.51.2-1ubuntu2.debian.tar.xz
+ 62655c38ad193b717b25b70b124d29d8ebb6d670 2710379 uasm_2.51.2.orig.tar.gz
+ fc23130e1ca98c915d36935e57611baedbf57f75 2544 uasm_2.51.2-1ubuntu2.debian.tar.xz
 Checksums-Sha256:
- ac05c5dedd8c55ba3fe50e140971fd818740239fe15c9772f268cbdfcf7eb792 2710291 uasm_2.51.2.orig.tar.gz
- c518901395c9b1b38c8efbce340ec652ac3cc9acd1040f92add08e184134eb47 2524 uasm_2.51.2-1ubuntu2.debian.tar.xz
+ a4fa364b86f28f67a00bfcff254323284bbfc7de9c15bbe2e1679890a9d17c13 2710379 uasm_2.51.2.orig.tar.gz
+ e36a81935dcc04c486d17bff834691360cb94d269f1003523f5fff826c7e83cd 2544 uasm_2.51.2-1ubuntu2.debian.tar.xz
 Files:
- e6e619e9ea7565cadedf55fee37e56ac 2710291 uasm_2.51.2.orig.tar.gz
- 7f34bdd2c27b3da036a7c6e6666e8398 2524 uasm_2.51.2-1ubuntu2.debian.tar.xz
+ e4d6bde00e19c0e6451145c79739830d 2710379 uasm_2.51.2.orig.tar.gz
+ 2f91959d61547182453e347e92dbe8b7 2544 uasm_2.51.2-1ubuntu2.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEiEz9eRHLyjBVpiyBwn0khLppjqUFAmBWXGoACgkQwn0khLpp
-jqUWcg//fS+bU5lJgXJriq4nhNkngSKu+Sh/5ck+3/AEvQ75Ax6BpS57DZ9hDbGK
-QJkMTwfIKTz8evWJw0fcYlAMVBGoELj0iDHheb5y22Uy7DqF0VT1qREwGrSVrCkL
-BcHKhg43ag0N6hwjPXHuzuuGPdN7f1rZs6IYXsFO7ol84ymqQFeAj2nHJ311Y874
-m9PcnusCjprnXumKeqHG5z2iN4hDgg4o+UevAWR5bpvufdm/v3kmCabfCxIQCYBQ
-t5vUKb+Xh5cxCM/8NFNMvhGv5WXNVtpItwfv6gQsvo/p8JQverB8ols5EUsgYtUX
-Uy8KUJ6bbZBoMp47hvGtOC45GZ67TOeqLS8pRGjeOyTyE8buqdjXsb9ZE5KxPIdb
-HhEf1oDyj7Ak2fOFDakx4OhD5jGceA1toxIi7saeaazaZiLMsPDepXuN6oTJjK1P
-NHC9xgATTsyMO/Mk6YVpi7Ll2ByHS0ueORypqP6E7pwomGD2w5gkPaS0yATg8Iov
-88wajm3sc+VBdNI/FyunklLX4WdP4OD03YdVfSqhIhuLO4lPN2htIjebA7Wczhfs
-1guCsz+2xbMowLuwPiH4T7UJFoz8vOMNnPig7lSbrC3My9rcGxbwiNth5JBBgK8U
-cGY0RbrW82hfUX+wLs3AaS5K8MPbw4/XanDy3uulNFRoPkXOXo4=
-=9NZ7
+iQIzBAEBCgAdFiEEiEz9eRHLyjBVpiyBwn0khLppjqUFAmBWbkcACgkQwn0khLpp
+jqUoog//Ybfm0wxYntF2qH0XQPTtUmTr1Yr+GGnLGwnxdZ4Cx73UDfEtHTP+rP7v
+njxCHPdwuBtvJSixcYUeykTUXvjVLz8Ft89+O7ku7q90xPmiu1/APNr84Uuyskn4
+oVJPVasrHa3FUxW8SPQZy12+2yGAu/YPtkRK3xZdI+1asOrPMxDbX01c6+C5aZQk
+pVBBcFkdDSC0YzNxpYg/ftaHaBcsoIrOAUCPzbVEATHc7+3mgN5BnvMZO4VGu6oj
+GndSHyywQGNfR5JRcIkXdQ8B5AElk4Ai2QA1suAZb28OCMbV0wqysRwbtNp5voIi
+YTGgnQT1D5HW7lEG4J9mhK8iNdr0ZgJrb8EKTvLjKz9NadjuNYE2C6uqJR7XP9dS
+ipNMxQbtAuJf7X9s3L3f/dkI7yno0IdurNNr90Nm0GIuxzZBYZoFxWIsIsH/tr4V
+vJgfQzTny51T89SL9jWmm3beET9rfYCoqkfD5Uo82Tek5uv21qxe/JOkNA+vUya7
+vzgAuFWsByU9hriNpC9Qqg+t5j5QfxedxQYuoip56L+zdQEvC+4A/vEQtcLLaoQf
+C7+EXjUDxr92KemmiMwrizlu+doyRoADdXFuQCdgvtdX57YoYyFE6rT9WXFtTQgn
+f2mzeFGgKPsle8bJ8ugjua3Zl17nM5yXfuq6wRB+I2OaJlbshQM=
+=XDza
 -----END PGP SIGNATURE-----

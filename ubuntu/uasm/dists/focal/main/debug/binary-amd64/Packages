@@ -10,10 +10,10 @@ Depends: uasmd (= 2.51.2-1ubuntu2)
 Priority: extra
 Section: debug
 Filename: pool/main/u/uasm/uasmd-dbgsym_2.51.2-1ubuntu2_amd64.ddeb
-Size: 345340
-SHA256: 961333c749f3bb5cea0893fa2ce7885c2938c30db1f1748c650c33d0ce7cd499
-SHA1: 0ea2e30770a8a8318e0f197178068d1723374d04
-MD5sum: 1d425bef480e7bba7409026d629f2610
+Size: 345304
+SHA256: 6bcc77b9eb8022198e9684cb01b352ca2373ceed5136c188fcd43167612cd16a
+SHA1: a5985e7ca31497042cb4df5693caa6582d8fad25
+MD5sum: ebc9a8343fb028ae9bc44f03d655b324
 Description: debug symbols for uasmd
-Build-Ids: fb0637923c4407ac1ff36e53d460eb95c139450e
+Build-Ids: 6b26605df4543eeef02b70cea46c5a562a29679d
 

@@ -8,11 +8,11 @@ Homepage: http://www.terraspace.co.uk/uasm.html
 Priority: optional
 Section: devel
 Filename: pool/main/u/uasm/uasm_2.51.2-1ubuntu2_amd64.deb
-Size: 277008
-SHA256: 2d393b6ffc84c443f31b6defe175987530f35f3acc91008092103f4421c2d258
-SHA1: 7279cc08a7940a6d52509fb1e67b491a6d093d5e
-MD5sum: 7c5f6633cbe8682693698e5db7ef9459
-Description: UASM is a free MASM-compatible assembler
+Size: 277064
+SHA256: f7c6f1c4eaa3cddbd4cf0bf1713c6a0909d393fef98d5eb4a483055aa25d1f2e
+SHA1: a3a3b9af42bd5055af4c37ece11ca56848e802f8
+MD5sum: a12161e90fa3e9c541af4325a369b472
+Description: UASM is a free MASM-compatible and x86/x64 linux/mac/win assembler
  based on JWasm with more and enhanced features.
  .
  Please visit http://www.terraspace.co.uk/uasm.html for more info.
@@ -31,11 +31,11 @@ Homepage: http://www.terraspace.co.uk/uasm.html
 Priority: optional
 Section: libdevel
 Filename: pool/main/u/uasm/uasm-dev_2.51.2-1ubuntu2_amd64.deb
-Size: 48132
-SHA256: eb9ea1566cda5a270feac83f5408d5a61d73e26a2de936044ec39f7a6163382c
-SHA1: f00b29f758cbb90cf7cfa94c3fa249fa0faea30a
-MD5sum: 33c1dc8a02039cf924c62c63683b7b53
-Description: UASM (include files) is a free MASM-compatible assembler
+Size: 48152
+SHA256: 5cdbeb1aed5ed766c741fbcc4be0d2d61af7016108225931fcfb1eb77e105d65
+SHA1: ded5aed67c5717b53dfd5559ab8d47e5780cb72a
+MD5sum: 41eb6fd37da7e612212bf9560fca5509
+Description: UASM (include files) for the free MASM-compatible and x86/x64 linux/mac/win assembler
  based on JWasm with more and enhanced features.
  .
  Please visit http://www.terraspace.co.uk/uasm.html for more info.
@@ -54,11 +54,11 @@ Homepage: http://www.terraspace.co.uk/uasm.html
 Priority: optional
 Section: debug
 Filename: pool/main/u/uasm/uasmd_2.51.2-1ubuntu2_amd64.deb
-Size: 285296
-SHA256: 9ba22af7776c8e5eb67860e3958b37c855c0fde90b3ba2f94f4ee6f0b2f67a2a
-SHA1: c0a9a98155eb8d02c94d24c66c8dd9c0d259eadb
-MD5sum: 98c30cad1d1e441a85bc6341c05955a3
-Description: UASM (debug version) is a free MASM-compatible assembler
+Size: 285392
+SHA256: dfb6c02d9c3c5b7ef2240f07fd3e45d416def14eee25c81668407e16e6822802
+SHA1: 5a362309aa934ab527e3858bf05d76d7e98a9a6a
+MD5sum: 0c74a5ab8023a0ea30b0da57c2bb4213
+Description: UASM (debug version) is a free MASM-compatible and x86/x64 linux/mac/win assembler
  based on JWasm with more and enhanced features.
  .
  Please visit http://www.terraspace.co.uk/uasm.html for more info.
