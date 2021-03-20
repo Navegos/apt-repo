@@ -2,17 +2,40 @@ Package: uasm
 Version: 2.51.2-1ubuntu2
 Architecture: amd64
 Maintainer: Navegos QA <navegos@outlook.com>
-Installed-Size: 1280
-Depends: dpkg (>= 1.15.4) | install-info, libc6 (>= 2.14), libc6-dev
+Installed-Size: 790
+Depends: dpkg (>= 1.15.4) | install-info, libc6 (>= 2.14), libc6-dev, uasm-dev
 Homepage: http://www.terraspace.co.uk/uasm.html
 Priority: optional
 Section: devel
 Filename: pool/main/u/uasm/uasm_2.51.2-1ubuntu2_amd64.deb
-Size: 322692
-SHA256: ae64314326650dd6916080adbaf70d388fd07168e7080a94274959fb918a71e9
-SHA1: d76c38c5a42dae0876ee6d7f9971f7e7123c72e1
-MD5sum: 18fe9444f46e6718597ce5b220b51e04
+Size: 277008
+SHA256: 2d393b6ffc84c443f31b6defe175987530f35f3acc91008092103f4421c2d258
+SHA1: 7279cc08a7940a6d52509fb1e67b491a6d093d5e
+MD5sum: 7c5f6633cbe8682693698e5db7ef9459
 Description: UASM is a free MASM-compatible assembler
+ based on JWasm with more and enhanced features.
+ .
+ Please visit http://www.terraspace.co.uk/uasm.html for more info.
+ .
+ UASM is released under the Sybase Open Watcom Public License version 1.0
+ and under the Apache License, Version 2.0.
+
+Package: uasm-dev
+Source: uasm
+Version: 2.51.2-1ubuntu2
+Architecture: amd64
+Maintainer: Navegos QA <navegos@outlook.com>
+Installed-Size: 502
+Depends: dpkg (>= 1.15.4) | install-info, libc6-dev
+Homepage: http://www.terraspace.co.uk/uasm.html
+Priority: optional
+Section: libdevel
+Filename: pool/main/u/uasm/uasm-dev_2.51.2-1ubuntu2_amd64.deb
+Size: 48132
+SHA256: eb9ea1566cda5a270feac83f5408d5a61d73e26a2de936044ec39f7a6163382c
+SHA1: f00b29f758cbb90cf7cfa94c3fa249fa0faea30a
+MD5sum: 33c1dc8a02039cf924c62c63683b7b53
+Description: UASM (include files) is a free MASM-compatible assembler
  based on JWasm with more and enhanced features.
  .
  Please visit http://www.terraspace.co.uk/uasm.html for more info.
@@ -25,17 +48,17 @@ Source: uasm
 Version: 2.51.2-1ubuntu2
 Architecture: amd64
 Maintainer: Navegos QA <navegos@outlook.com>
-Installed-Size: 1624
-Depends: dpkg (>= 1.15.4) | install-info, libc6 (>= 2.14), libc6-dev
+Installed-Size: 1134
+Depends: dpkg (>= 1.15.4) | install-info, libc6 (>= 2.14), libc6-dev, uasm-dev
 Homepage: http://www.terraspace.co.uk/uasm.html
 Priority: optional
-Section: devel
+Section: debug
 Filename: pool/main/u/uasm/uasmd_2.51.2-1ubuntu2_amd64.deb
-Size: 330952
-SHA256: 6e7df09855a25c38eabd7234a787d08c160ede87479ad01a3e96f1bfbe094407
-SHA1: 6e9d4981d6eb97d74737e2a6b464d4af7412a8f6
-MD5sum: f9af8fca060f0e1110609d3f96afcf71
-Description: UASM is a free MASM-compatible assembler
+Size: 285296
+SHA256: 9ba22af7776c8e5eb67860e3958b37c855c0fde90b3ba2f94f4ee6f0b2f67a2a
+SHA1: c0a9a98155eb8d02c94d24c66c8dd9c0d259eadb
+MD5sum: 98c30cad1d1e441a85bc6341c05955a3
+Description: UASM (debug version) is a free MASM-compatible assembler
  based on JWasm with more and enhanced features.
  .
  Please visit http://www.terraspace.co.uk/uasm.html for more info.

@@ -3,7 +3,7 @@ Hash: SHA512
 
 Format: 3.0 (quilt)
 Source: uasm
-Binary: uasm, uasmd
+Binary: uasm, uasmd, uasm-dev
 Architecture: any
 Version: 2.51.2-1ubuntu2
 Maintainer: Navegos QA <navegos@outlook.com>
@@ -14,30 +14,31 @@ Vcs-Git: https://github.com/Terraspace/UASM.git
 Build-Depends: debhelper (>= 12), dpkg-dev (>= 1.16.1~)
 Package-List:
  uasm deb devel optional arch=any
- uasmd deb devel optional arch=any
+ uasm-dev deb libdevel optional arch=any
+ uasmd deb debug optional arch=any
 Checksums-Sha1:
- 002838f1a15854a2b00b3e521268927a29c662b8 2710308 uasm_2.51.2.orig.tar.gz
- aceb0ef5b2166867593902dea6369ea453ee31fd 2456 uasm_2.51.2-1ubuntu2.debian.tar.xz
+ 91f4cba991f04fe0a7829a4a9a210bd5e820e28c 2710291 uasm_2.51.2.orig.tar.gz
+ b229572591dc0196402476a53a5d517179294574 2524 uasm_2.51.2-1ubuntu2.debian.tar.xz
 Checksums-Sha256:
- 3d61a6ddcdb740030fc18d24de175955c9e36b06e1905682bf8930da18634eaf 2710308 uasm_2.51.2.orig.tar.gz
- 9f8825248b069c0b9660276747549d9ca7b1c4a0d7b6b2abf72f6d74cc03653f 2456 uasm_2.51.2-1ubuntu2.debian.tar.xz
+ ac05c5dedd8c55ba3fe50e140971fd818740239fe15c9772f268cbdfcf7eb792 2710291 uasm_2.51.2.orig.tar.gz
+ c518901395c9b1b38c8efbce340ec652ac3cc9acd1040f92add08e184134eb47 2524 uasm_2.51.2-1ubuntu2.debian.tar.xz
 Files:
- 665d376ad84e0ae5459bed0cef0ff237 2710308 uasm_2.51.2.orig.tar.gz
- a25df7bb912a6e45952d9dcdca04ac02 2456 uasm_2.51.2-1ubuntu2.debian.tar.xz
+ e6e619e9ea7565cadedf55fee37e56ac 2710291 uasm_2.51.2.orig.tar.gz
+ 7f34bdd2c27b3da036a7c6e6666e8398 2524 uasm_2.51.2-1ubuntu2.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEiEz9eRHLyjBVpiyBwn0khLppjqUFAmBWNTkACgkQwn0khLpp
-jqUCbA/9HXiHhF9I+f93oDQrZ98eCCwLpszaI0/oxQWtHnHfPO4QEoi0lv/z/Q0m
-mNQ+lR48bF8paWc65VHtb9qH0PvwwMIXpB+twuakV7Bo/LyIXCLXygDwIsssy9wY
-VwfLrwd4w1/dya1Np1obn51gYTupoxuvDglRATCVRV5zmEpzx0G/lYP1ELMbO+pK
-DLsUrso2lTgv7uaGG50XWKwTIOEVlK8LipKkV2Pq4WyyCzeFZ8jU/Y5/s9Q8CKTj
-fbILn/qKvjfxyZQWSBGbIZopv/ipRSW290MyUDIsrpuIyqM5T5Hn0QIh6EFgV10k
-paJOvYwC8ScUZ4A31WP5EJCzIDVnYRfU+8UhqFcqa6+fR+27yZbb35iv4aLIBR+j
-OnLa5TZkEBwdU89V417lYhaiOJh72qmv83l7hvnsQjauHSJpM+Vdh1lPlfUoSezK
-L2zi8q4wpwTkYKmeZhrshm28/+w/ei73Kd1yNgCUrIYgZUHrlHUEVUJxyTJsBc0r
-22jD9fWTg081d9gpeDkX/qMmDjBQ5ZZamOXJmqR7jJWov8drb9H96LCKoOE0n4KV
-Ogf9HU2EvL65ASoQjAsWmHWV2ZcXhiB7EGPhf3i80lRiSY65YebjwSJrKw04liis
-zkEXRNgSx9fGqnQPS0kILavzAohPvbrZ+iEdiT1jZP/WwSy7dl8=
-=tWwd
+iQIzBAEBCgAdFiEEiEz9eRHLyjBVpiyBwn0khLppjqUFAmBWXGoACgkQwn0khLpp
+jqUWcg//fS+bU5lJgXJriq4nhNkngSKu+Sh/5ck+3/AEvQ75Ax6BpS57DZ9hDbGK
+QJkMTwfIKTz8evWJw0fcYlAMVBGoELj0iDHheb5y22Uy7DqF0VT1qREwGrSVrCkL
+BcHKhg43ag0N6hwjPXHuzuuGPdN7f1rZs6IYXsFO7ol84ymqQFeAj2nHJ311Y874
+m9PcnusCjprnXumKeqHG5z2iN4hDgg4o+UevAWR5bpvufdm/v3kmCabfCxIQCYBQ
+t5vUKb+Xh5cxCM/8NFNMvhGv5WXNVtpItwfv6gQsvo/p8JQverB8ols5EUsgYtUX
+Uy8KUJ6bbZBoMp47hvGtOC45GZ67TOeqLS8pRGjeOyTyE8buqdjXsb9ZE5KxPIdb
+HhEf1oDyj7Ak2fOFDakx4OhD5jGceA1toxIi7saeaazaZiLMsPDepXuN6oTJjK1P
+NHC9xgATTsyMO/Mk6YVpi7Ll2ByHS0ueORypqP6E7pwomGD2w5gkPaS0yATg8Iov
+88wajm3sc+VBdNI/FyunklLX4WdP4OD03YdVfSqhIhuLO4lPN2htIjebA7Wczhfs
+1guCsz+2xbMowLuwPiH4T7UJFoz8vOMNnPig7lSbrC3My9rcGxbwiNth5JBBgK8U
+cGY0RbrW82hfUX+wLs3AaS5K8MPbw4/XanDy3uulNFRoPkXOXo4=
+=9NZ7
 -----END PGP SIGNATURE-----
