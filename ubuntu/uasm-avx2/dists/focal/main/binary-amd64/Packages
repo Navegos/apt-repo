@@ -1,0 +1,68 @@
+Package: uasm
+Version: 2.54.0-1ubuntu2
+Architecture: amd64
+Maintainer: Navegos QA <navegos@outlook.com>
+Installed-Size: 789
+Depends: dpkg (>= 1.15.4) | install-info, libc6 (>= 2.14), libc6-dev, uasm-dev
+Homepage: http://www.terraspace.co.uk/uasm.html
+Priority: optional
+Section: devel
+Filename: pool/main/u/uasm/uasm_2.54.0-1ubuntu2_amd64.deb
+Size: 276912
+SHA256: 7772f6b1643f190eeb3c452ecdd81ccb58a762529f2297d0addd39ec07208c93
+SHA1: b249ef20a8f63e681523a5c8ecb0fb600b5f8bad
+MD5sum: b74491d0480b8b82b41e66975b33d3d0
+Description: The UASM is a free MASM-compatible and x86/x64 linux/mac/win assembler
+ based on JWasm with more and enhanced features.
+ .
+ Please visit http://www.terraspace.co.uk/uasm.html for more info.
+ .
+ UASM is released under the Sybase Open Watcom Public License version 1.0
+ and under the Apache License, Version 2.0.
+
+Package: uasm-dev
+Source: uasm
+Version: 2.54.0-1ubuntu2
+Architecture: amd64
+Maintainer: Navegos QA <navegos@outlook.com>
+Installed-Size: 516
+Depends: dpkg (>= 1.15.4) | install-info, libc6-dev
+Homepage: http://www.terraspace.co.uk/uasm.html
+Priority: optional
+Section: libdevel
+Filename: pool/main/u/uasm/uasm-dev_2.54.0-1ubuntu2_amd64.deb
+Size: 49428
+SHA256: a78d106e97f7b20a756383efa6b57c5465aac977827c8eee9534b970fb7724d4
+SHA1: a2120d1dc47efa1491c9bf43fab316baeb487c91
+MD5sum: 7809d296fd85e633f490d8b241cd7cfe
+Description: The UASM (include files) for the free MASM-compatible and x86/x64 linux/mac/win assembler
+ based on JWasm with more and enhanced features.
+ .
+ Please visit http://www.terraspace.co.uk/uasm.html for more info.
+ .
+ UASM is released under the Sybase Open Watcom Public License version 1.0
+ and under the Apache License, Version 2.0.
+
+Package: uasmd
+Source: uasm
+Version: 2.54.0-1ubuntu2
+Architecture: amd64
+Maintainer: Navegos QA <navegos@outlook.com>
+Installed-Size: 1125
+Depends: dpkg (>= 1.15.4) | install-info, libc6 (>= 2.14), libc6-dev, uasm-dev
+Homepage: http://www.terraspace.co.uk/uasm.html
+Priority: optional
+Section: debug
+Filename: pool/main/u/uasm/uasmd_2.54.0-1ubuntu2_amd64.deb
+Size: 282904
+SHA256: 0670921b148256792450d2c9d229aea6c6af8892b22f7204ced0383e0774da4a
+SHA1: e1cf305bcae0675d87464467cc0ef077ad44e425
+MD5sum: 31791850dedb4a65f1d6cf8410839f57
+Description: The UASM (debug version) is a free MASM-compatible and x86/x64 linux/mac/win assembler
+ based on JWasm with more and enhanced features.
+ .
+ Please visit http://www.terraspace.co.uk/uasm.html for more info.
+ .
+ UASM is released under the Sybase Open Watcom Public License version 1.0
+ and under the Apache License, Version 2.0.
+

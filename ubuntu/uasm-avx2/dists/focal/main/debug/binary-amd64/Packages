@@ -1,0 +1,19 @@
+Package: uasmd-dbgsym
+Package-Type: ddeb
+Source: uasm
+Version: 2.54.0-1ubuntu2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Navegos QA <navegos@outlook.com>
+Installed-Size: 385
+Depends: uasmd (= 2.54.0-1ubuntu2)
+Priority: extra
+Section: debug
+Filename: pool/main/u/uasm/uasmd-dbgsym_2.54.0-1ubuntu2_amd64.ddeb
+Size: 341092
+SHA256: 69d1a001ac998c0d44296a1077871667247c880ef66849569b39e028dd18ad75
+SHA1: 9a3067ad94dadbc8ab771387af4de67ba4a5ef5d
+MD5sum: ba5f0efdb3d454da1524b0b2550553cc
+Description: debug symbols for uasmd
+Build-Ids: be7aaadbde1a767dd2340902ce9494f2eaf38d4f
+
